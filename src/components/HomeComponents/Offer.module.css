@@ -1,0 +1,96 @@
+.title {
+  text-align: center !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #ffd700 !important;
+  margin-top: 80px !important;
+}
+
+.container {
+  margin-top: 30px !important;
+  text-align: center !important;
+}
+
+.offerCard {
+  background-color: #353530 !important;
+}
+
+.offerCard:hover {
+  transform: scale(1.1);
+}
+
+.cardTitle {
+  font-size: 1.2rem !important;
+  color: #ffd700 !important;
+  font-weight: bold !important;
+}
+
+.offer {
+  font-weight: bold !important;
+  color: #f7f7f7 !important;
+  font-size: 0.9rem !important;
+  margin-top: 20px !important;
+}
+
+.footContainer {
+  margin-top: 50px !important;
+  text-align: center !important;
+  margin-bottom: 50px !important;
+}
+
+.footerTitle {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #ffd700 !important;
+}
+
+.footerContent {
+  margin-top: 20px !important;
+  color: #f7f7f7 !important;
+}
+
+.btn {
+  margin-top: 20px !important;
+  background-color: #ffd700 !important;
+}
+
+.btn a {
+  text-decoration: none !important;
+  color: #1c1b19 !important;
+  font-weight: bold !important;
+}
+
+.newsletter {
+  text-align: center !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+}
+
+.signUpTitle {
+  color: #ffd700 !important;
+  font-size: 1.4rem !important;
+  font-weight: bold !important;
+}
+
+.signUpContent {
+  color: #f7f7f7 !important;
+  font-size: 0.9rem !important;
+}
+
+.input {
+  padding: 10px 10px !important;
+  margin-top: 20px !important;
+  border-radius: 0.3rem !important;
+}
+
+.btnSignUp {
+  background-color: #ffd700 !important;
+  color: #1c1b19 !important;
+  font-weight: bold !important;
+  margin-left: 10px !important;
+}
+
+.btnSignUp:focus,
+.input:focus {
+  outline: none !important;
+}

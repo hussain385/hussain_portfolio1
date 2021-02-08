@@ -1,0 +1,52 @@
+.title {
+  text-align: center !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #ffd700 !important;
+  margin-top: 80px !important;
+}
+
+.container {
+  margin-top: 30px !important;
+}
+
+.card {
+  background-color: #353530 !important;
+}
+
+.cardTitle {
+  font-size: 1rem !important;
+  color: #f7f7f7 !important;
+  font-weight: bold !important;
+}
+
+.details {
+  font-size: 0.8rem !important;
+  color: #f7f7f7 !important;
+}
+
+.btn {
+  color: #1c1b19 !important;
+  font-weight: bold !important;
+  background-color: #ffd700 !important;
+}
+
+.img {
+  object-fit: inherit !important;
+}
+
+.btnContainer {
+  text-align: center !important;
+  margin-top: 60px !important;
+}
+
+.btnLink {
+  font-weight: bold !important;
+  background-color: #ffd700 !important;
+}
+
+.btnLink a,
+.btn a {
+  text-decoration: none !important;
+  color: #1c1b19 !important;
+}

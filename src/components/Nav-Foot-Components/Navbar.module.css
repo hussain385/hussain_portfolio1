@@ -1,0 +1,135 @@
+.mainContainer {
+  background-color: #1c1b19 !important;
+  padding: 5px 5px;
+  box-shadow: none !important;
+}
+
+.container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.navLinkContainer {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navLinks a {
+  font-size: 1rem !important;
+  margin-left: 30px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  color: #f7f7f7 !important;
+  text-decoration: none !important;
+}
+
+.drawer {
+  background-color: #1c1b19 !important;
+  width: 250px !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.text {
+  color: #f7f7f7 !important;
+  margin-bottom: 50px !important;
+  height: fit-content !important;
+  background-color: #1c1b19 !important;
+}
+
+.text span {
+  font-weight: bold !important;
+  text-decoration: underline solid #ffd700 !important;
+}
+
+.text:hover {
+  background-color: #ffd700 !important;
+  color: #1c1b19 !important;
+  padding: 10px 10px !important;
+}
+
+.list:hover {
+  background-color: #1c1b19 !important;
+}
+
+.list a {
+  text-decoration: none !important;
+}
+
+.projectLink a {
+  font-size: 1rem !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  cursor: pointer !important;
+  background-color: #ffd700 !important;
+  color: #1c1b19 !important;
+  padding: 10px 10px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.navLinks a:hover {
+  background-color: #ffd700 !important;
+  color: #1c1b19 !important;
+  padding: 5px 5px !important;
+}
+
+.projectLink a:hover {
+  background-color: #353530 !important;
+  padding: 10px 10px !important;
+  color: #ffd700 !important;
+  padding: 5px 5px !important;
+}
+
+.logo {
+  margin-left: 30px !important;
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+}
+
+.toggle {
+  display: none !important;
+}
+
+.toggler {
+  color: #ffd700 !important;
+}
+
+@media (max-width: 780px) {
+  .container {
+    flex-direction: column !important;
+  }
+
+  .navLinkContainer {
+    display: none !important;
+  }
+
+  .navLinks,
+  .projectLink {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .logo {
+    margin-left: 20px !important;
+  }
+
+  .toggleContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+
+  .toggle {
+    display: flex !important;
+    cursor: pointer !important;
+    flex-direction: column !important;
+  }
+}
